@@ -424,7 +424,7 @@ export default class Intro extends Component<Props, State> {
         </section>
         {beforeInstallEvent && (
           <button class={style.installBtn} onClick={this.onInstallClick}>
-            Install
+            安装应用
           </button>
         )}
       </div>
