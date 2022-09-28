@@ -355,7 +355,7 @@ export default class Intro extends Component<Props, State> {
             <SlideOnScroll>
               <div class={style.infoContent}>
                 <div class={style.infoTextWrapper}>
-                  <h2 class={style.infoTitle}>Small</h2>
+                  <h2 class={style.infoTitle}>更小</h2>
                   <p class={style.infoCaption}>
                     更小的图像意味着更快的加载时间。TinyPic可以减少
                     文件大小并保持高质量。
@@ -380,10 +380,9 @@ export default class Intro extends Component<Props, State> {
             <SlideOnScroll>
               <div class={style.infoContent}>
                 <div class={style.infoTextWrapper}>
-                  <h2 class={style.infoTitle}>Simple</h2>
+                  <h2 class={style.infoTitle}>简单</h2>
                   <p class={style.infoCaption}>
-                    打开你的图像，检查差异，然后保存
-                    即可。感觉很冒险？调整设置以获得更 更小的文件。
+                    打开你的图像，检查差异，然后保存即可。感觉很意外？调整设置以获得更小的文件。
                   </p>
                 </div>
                 <div class={style.infoImgWrapper}>
@@ -405,7 +404,7 @@ export default class Intro extends Component<Props, State> {
             <SlideOnScroll>
               <div class={style.infoContent}>
                 <div class={style.infoTextWrapper}>
-                  <h2 class={style.infoTitle}>Secure</h2>
+                  <h2 class={style.infoTitle}>安全</h2>
                   <p class={style.infoCaption}>
                     担心隐私问题？图像永远不会离开你的设备，因为TinyPic在本地完成所有的工作。
                   </p>
