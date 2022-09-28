@@ -55,8 +55,8 @@ interface Output {
 const toOutput: Output = {
   'index.html': renderPage(<IndexPage />),
   'manifest.json': JSON.stringify({
-    name: 'Squoosh',
-    short_name: 'Squoosh',
+    name: 'TinyPic',
+    short_name: 'TinyPic',
     start_url: '/?utm_medium=PWA&utm_source=launcher',
     display: 'standalone',
     orientation: 'any',
@@ -75,8 +75,7 @@ const toOutput: Output = {
         purpose: 'maskable',
       },
     ],
-    description:
-      'Compress and compare images with different codecs, right in your browser.',
+    description: '用不同的编解码器压缩和比较图像，就在你的浏览器中。',
     lang: 'en',
     categories: ['photo', 'productivity', 'utilities'],
     screenshots,
